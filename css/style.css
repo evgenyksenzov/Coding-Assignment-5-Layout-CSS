@@ -1,0 +1,86 @@
+
+*{
+  box-sizing: border-box;
+}
+
+[class*="col"] {
+  float: left;  
+}
+
+.row: :after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+body{
+  background-image: url(/image/background.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: #336e9e;
+  font-family: "Bakbak One";
+}
+
+h1{
+  font-family: Niconne;
+}
+
+h2{
+  color: #000000;
+  text-shadow: 1px 1px 1px #1b820d;
+}
+
+h3{
+  font-family: Handlee;
+  text-align: center;
+  color: #000000;
+  text-shadow: 1px 1px 1px #1b820d;
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1.1em;
+  text-align: center;
+}
+
+img{
+  width: 60%;
+  height: auto;
+  margin: 5px 100px;
+ }
+
+li{
+  font-size: 1.1em;
+}
+
+#b-1 {
+  text-align: center; 
+}
+
+form{
+  font-size: 1.2em;  
+}
+
+fieldset{
+  border: solid 6px #336e9e;
+  border-style: double;
+  text-align: center;
+}
+
+span.bold {
+  font-weight: 600;
+}
+
+.row-c {
+  text-align: center;
+}
+
+.col-2-3 {
+  margin: 7% 20px;
+}
+
+.col-3-1 {
+  margin: 0px 0px 0px 175px; 
+}
